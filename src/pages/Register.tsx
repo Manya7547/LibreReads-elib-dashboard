@@ -47,7 +47,7 @@ const RegisterPage = () => {
           </div>
           <div className="mt-4 text-center text-sm">
             Already have an account?{" "}
-            <Link to={"/login"}>
+            <Link to={"/auth/login"}>
               <a className="underline">Sign in</a>
             </Link>
           </div>
