@@ -20,7 +20,7 @@ const LoginPage = () => {
     const email = emailRef.current?.value;
     const password = passwordRef.current?.value;
 
-    console.log(`email: ${email} and password: ${password}`);
+    console.log("data", { email, password });
 
     //make server call
   };
